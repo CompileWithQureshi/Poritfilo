@@ -1,8 +1,11 @@
 import React from 'react';
+import BasicExample from './component/Navbar';
 
 const App = () => {
   return (
-    <><h1>Hello world</h1></>
+    <div >
+      <BasicExample />
+    </div>
   )
 }
 
