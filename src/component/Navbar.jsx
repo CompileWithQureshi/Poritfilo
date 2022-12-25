@@ -1,11 +1,22 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "../App.css";
 
 function BasicExample() {
   const [activeLink, setActivelink] = useState("Home");
+  const [scroll, setScroll] = useState(false);
+  useEffect(() => {
+    const onScroll = () => {
+      if (window.scrollY > 50) {
+        setScroll(true);
+      } else {
+        setScroll(false);
+      }
+    };
+  });
+
   return (
     <Navbar expand="lg">
       <Container>
