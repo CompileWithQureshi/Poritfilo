@@ -2,6 +2,11 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { useState, useEffect } from "react";
+import logo from "../assets/img/logo.svg";
+import navImag1 from "../assets/img/nav-icon1.svg";
+import navImag2 from "../assets/img/nav-icon2.svg";
+import navImag3 from "../assets/img/nav-icon3.svg";
+
 import "../App.css";
 
 function BasicExample() {
@@ -28,7 +33,7 @@ function BasicExample() {
     <Navbar expand="lg" className={scroll ? "scroll" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src={""} alt="logo" />
+          <img src={logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon">Toggel</span>
@@ -67,13 +72,13 @@ function BasicExample() {
           <span className="navbar-text">
             <div className="social-icon">
               <a href="home">
-                <img src={""} alt=" " />
+                <img src={navImag1} alt=" " />
               </a>
               <a href="home">
-                <img src={""} alt=" " />
+                <img src={navImag2} alt=" " />
               </a>
               <a href="home">
-                <img src={""} alt=" " />
+                <img src={navImag3} alt=" " />
               </a>
             </div>
             <button className="wwd" onClick={() => console.log("connected")}>
