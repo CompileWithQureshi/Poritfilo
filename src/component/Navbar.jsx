@@ -1,6 +1,5 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import { Container, Navbar, Nav } from "react-bootstrap";
+
 import { useState, useEffect } from "react";
 import logo from "../assets/img/logo.svg";
 import navImag1 from "../assets/img/nav-icon1.svg";
@@ -36,7 +35,7 @@ function BasicExample() {
           <img src={logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
-          <span className="navbar-toggler-icon">Toggel</span>
+          <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
