@@ -20,6 +20,9 @@ export const Banner = () => {
               nesciunt minima ullam eveniet tenetur! Dolorem eveniet, minima
               corrupti quod sapiente omnis?
             </p>
+            <button onClick={() => console.log("connected")}>
+              Let's Connect
+            </button>
           </Col>
         </Row>
       </Container>
