@@ -3,6 +3,7 @@ import Navbar from './component/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Banner } from './component/Banner';
 import { Skill } from './component/Skills';
+import { Project } from './component/Project';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar />
       <Banner />
       <Skill />
+      <Project />
     </div>
   )
 }
