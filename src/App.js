@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { Banner } from './component/Banner';
 import { Skill } from './component/Skills';
 import { Project } from './component/Project';
+import { Contact } from './component/Contact';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Banner />
       <Skill />
       <Project />
+      <Contact />
     </div>
   )
 }
