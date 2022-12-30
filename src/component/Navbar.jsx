@@ -8,7 +8,7 @@ import navImag3 from "../assets/img/nav-icon3.svg";
 
 import "../App.css";
 
-function BasicExample() {
+function Navbars() {
   const [activeLink, setActivelink] = useState("Home");
   const [scroll, setScroll] = useState(false);
   useEffect(() => {
@@ -90,4 +90,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default Navbars;
