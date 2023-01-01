@@ -28,4 +28,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 #deployed in github-pages.
 https://compilewithqureshi.github.io/Poritfilo/
 
-###Use npm install 
+###`Use npm install`
+
+
